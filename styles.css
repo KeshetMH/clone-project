@@ -1,0 +1,72 @@
+body {
+    background-image: url("./images/fullpageinage.jpg");
+    background-size: 100%;
+    background-position: center;
+    margin: 0;
+    height: 100%;
+}
+
+.topbar {
+    background-color: rgba(226, 218, 202, 0.433);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding-left: 6px;
+    padding-right: 6px;
+    height: 70px;
+}
+
+.divtopbar {
+    display: flex;
+    align-items: center;
+    gap: 10px;  
+}
+
+img {
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    
+}
+
+.symbol {
+    font-size: 20px;
+    padding: 0px 11px;
+    color: rgb(183, 176, 176);
+    background-color: rgba(222, 219, 213, 0.722);
+    border-radius: 3px;
+    font-family: cursive;
+}
+
+#mainsymbol {
+    font-size: 20px;
+    color: rgb(183, 176, 176);
+    font-family: cursive;
+}
+
+#mainh1 {
+    color: rgb(183, 176, 176);
+    font-family: cursive;
+}
+
+#input {
+    background-color: rgba(222, 219, 213, 0.722);
+    border-color: rgba(222, 219, 213, 0.722);
+    height: 25px;
+    border-radius: 5px;
+}
+
+.secondtopbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding-left: 6px;
+    padding-right: 6px;
+    height: 70px;
+    gap: 15px;
+    font-family: sans-serif;
+    color: rgb(183, 176, 176);
+}
+
+
+
